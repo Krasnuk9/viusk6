@@ -1,0 +1,74 @@
+body{
+    background-color: lightgreen;
+}
+p{
+    font-size: 50px;
+    color: darkorange;
+    background-color: lightblue;
+    display: inline-block;
+}
+span{
+    color: blueviolet;
+    border: dotted red 5px;
+    display: inline-block;
+}
+li{
+    background-color: fuchsia;
+    display: inline-block;
+    border: dashed 5px blueviolet;
+    font-size: 24px ;
+    padding: 5px 10px;
+}
+li.hover{
+
+}
+#d1{
+    background-color: honeydew;
+    font-size: 24px;
+    width: 500px;
+    height: 500px;
+    border-style: double;
+    border-width: 30px;
+    border-color: fuchsia darkmagenta darkorchid purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#d2{
+    width: 800px;
+    width: 500px;
+    height: 500px;
+    border-style: double dotted dashed solid;
+    border-width: 30px;
+    border-color: fuchsia darkmagenta darkorchid purple;
+    margin-top: 50px;
+}
+#d3,#d4{
+    width: 900px;
+    height: 200px;
+    background-color: greenyellow;
+    margin: 50px;
+    border-width: 30px;
+    padding: 50px;
+
+}
+#d3{
+    border-style: ridge none;
+    border-color: tomato;
+}
+#d4{
+    border-style: groove;
+    border-color: aqua;
+}
+#d5{
+width: 700px;
+height: 400px;
+background-color: aliceblue;
+border-style: ridge;
+border-color: yellow blue;
+margin: 50px ;
+border-width: 30px;
+padding: 5Spx;
+bor
+}

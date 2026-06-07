@@ -1,0 +1,50 @@
+
+body{  background-color: lightgreen;}
+
+p{
+font-size: 48px;
+font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: red    ;
+}
+ul,ol,dl{ font-size: 24px;
+    color: magenta;
+    font-family: "Caveat", cursive;
+  
+    color: green;
+
+  font-weight: 700;
+  font-style: normal;}
+.l1 li::marker{
+color: red;
+}
+
+.l2 li{
+    padding-left: 16px;
+}   
+ol{
+    margin-left: 90px;
+
+}
+@counter-style circled-digits {
+  system: cyclic;
+  symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋 🍄;
+  suffix: " ";
+}
+
+ul.l3 {
+  list-style: circled-digits;
+}
+@counter-style upper-ukrainian-full {
+system: alphabetic;
+symbols: '\410' '\411' '\412' '\413' '\490' '\414' '\415' '\404' '\416' '\417' '\418' '\406' '\407' '\419' '\41A' '\41B' '\41C' '\41D' '\41E' '\41F' '\420' '\421' '\422' '\423' '\424' '\425' '\426' '\427' '\428' '\429' '\42C' '\42E' '\42F';
+/* symbols: 'А' 'Б' 'В' 'Г' 'Ґ' 'Д' 'Е' 'Є' 'Ж' 'З' 'И' 'І' 'Ї' 'Й' 'К' 'Л' 'М' 'Н' 'О' 'П' 'Р' 'С' 'Т' 'У' 'Ф' 'Х' 'Ц' 'Ч' 'Ш' 'Щ' 'Ь' 'Ю' 'Я'; */
+}
+.l4{
+    list-style: upper-ukrainian-full;
+}
+dl{
+    color: black;
+}
